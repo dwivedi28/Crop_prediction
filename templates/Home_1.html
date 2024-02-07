@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Patil Agrotech</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>AgroPredict </h1>
+  <p> AgroPredict welcomes you to our website! We hope your farming endeavors are thriving. We're here to provide suggestions for your crop cultivation. We recommend the best crops to grow based on your soil nutrients. All you need to do is know your soil nutrients, which you can test in a lab.</p>
+  <br>
+  <h3>Let's Start a New Journey With AgroPredict</h3>
+  <br>
+  <h2>Click the button below for crop recommendation</h2>
+</main>
+<form action="/Predict">
+  <input type="submit" id="Predict" name="Predict" value="Predict">
+</form>
+</body>
+</html>
